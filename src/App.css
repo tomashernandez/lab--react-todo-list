@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*custom styles*/
+
+.card {
+  min-height: 260px;
+  height: 90px;
+}
+
+.card h3 {
+  margin-top: 5px;
+  margin-bottom: 10px!important;
+}
+
+.body-important {
+  border-top: 20px solid #3ddc66
+}
+
+.body-pending {
+  border-top: 20px solid #ccc
+}
+
+strong.d-inline-block.mb-2.text-primary {
+  text-transform: capitalize;
+}
+
+a.p-2.text-muted {
+  border: .05mm solid;
+  width: 29%;
+  margin: 0 auto;
+}
+
+.btn {
+  min-height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.right {
+  float: right
+}
+
+.left {
+  float: left;
+}
+
+.text-done {
+  text-decoration: line-through!important;
+}
+
+.nav a {
+  cursor: pointer;
+}
+
+a.filtered--selected {
+  font-weight: 700;
+  background: rgba(41, 40, 40, 0.1);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
